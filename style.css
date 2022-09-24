@@ -1,0 +1,23 @@
+.pulse{
+    height: 50px;
+    width: 50px;
+    background-color: #fa48a9;
+    border-radius: 50%;
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    from{
+        box-shadow: #fa48a9 0 0 0;
+
+    }
+    to{
+        box-shadow: #fab4dc 0 0 0 20px;
+    }
+}
+
+body {
+    background-color: rgb(255, 213, 252);
+    margin: 200px 700px;
+    
+}
